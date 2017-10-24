@@ -17,9 +17,11 @@
   width: 50%;
   height: 300%;
   content: "";
+  -webkit-transform:rotate(45deg);
   transform: rotate(45deg);
   z-index: 2;
   background: -webkit-linear-gradient(left,rgba(255,255,255,.05) 20%,rgba(255,255,255,1) 65%,rgba(255,255,255,.05) 100%);
+  background: linear-gradient(left,rgba(255,255,255,.05) 20%,rgba(255,255,255,1) 65%,rgba(255,255,255,.05) 100%);
   position: absolute;
   top:-100%;
   left: -100%;
@@ -30,7 +32,7 @@
 @keyframes crossed {
   0% {
     top: -100%;
-    left: -100%
+    left: -100%;
   }
   100% {
     top:-50px;
